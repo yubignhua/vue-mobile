@@ -2,7 +2,7 @@
   <div id="app" style="height: 100%;" class="app">
     <router-view v-wechat-title="$route.meta.title"/>
     <div v-transfer-dom>
-      <loading v-model="isLoading" loading=false></loading>
+      <loading v-model="isLoading" loading=false text="加载中..."></loading>
       <!--<toast @on-hide="" v-model="toast" type="text" :time="3500" is-show-mask :text="toastDes" :position="position"></toast>-->
     </div>
   </div>
